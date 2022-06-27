@@ -18,7 +18,6 @@ namespace csharp_snacks_1
         {
             //snack 10
             Random rnd = new Random();
-            int num = rnd.Next();
             Console.Write("Inserire un numero: ");
             int arrays = Int32.Parse(Console.ReadLine());
 
@@ -35,11 +34,9 @@ namespace csharp_snacks_1
                         }
                     }
                     Console.Write("\n");
-
             }
-
-
             return;
+
             //snack 5
             Console.Write("Inserire un numero: ");
             int newUserNumber = Int32.Parse(Console.ReadLine());
